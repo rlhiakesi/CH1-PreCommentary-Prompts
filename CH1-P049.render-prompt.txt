@@ -1,0 +1,44 @@
+Render CH1-P049 at 1024×1536 pixels as two registered PNG files plus one authoritative text file: IAKESI-CH1-049-art.png, IAKESI-CH1-049-lettering.png, and IAKESI-CH1-049-text.txt.
+ARTWORK FILE — IAKESI-CH1-049-art.png: finished full-color page artwork only. Include panels, gutters, environments, characters, props, lighting and visual effects; include no speech balloons, thought balloons, narration boxes, lettering, captions, non-diegetic SFX, page numbers, panel numbers, or lettering placeholders.
+LETTERING FILE — IAKESI-CH1-049-lettering.png: transparent RGBA overlay at the identical pixel dimensions and registration. Include only the specified speech balloons, thought balloons, narration boxes, tails/dots, text, and non-diegetic SFX. Every other pixel must remain transparent; include no artwork and no page number.
+OUTPUT DIRECTORY — BINDING: place all three deliverables in the RenderedPages/ subdirectory of the current chapter project directory. Create RenderedPages/ if it does not exist, when filesystem access is available. Required relative output paths: RenderedPages/IAKESI-CH1-049-art.png; RenderedPages/IAKESI-CH1-049-lettering.png; RenderedPages/IAKESI-CH1-049-text.txt. Do not place final deliverables in RenderPackages/ or the chapter root. If rendering takes place in an environment without access to the user's chapter filesystem, return the three files with these exact filenames for installation into RenderedPages/; do not claim they were saved locally.
+Use 3 panels arranged vertically in reading order.
+Use the attached page package as the authoritative resolved SBL source if any ambiguity remains.
+Global production rules — BINDING:
+- Style: full-color manga
+- Canvas: 1024x1536
+- Print Rules: not applicable
+- Lettering: CSP final
+- Source: v32 script
+Use these attached canonical/authoritative references as binding for the aspects they define: Assets/Alpha-Character-Sheet.png, Assets/Manga Me Character Sheet.png.
+Canonical character identity:
+- Manga Me: BINDING VISUAL IDENTITY: match the canonical character reference images exactly for face, proportions, hair geometry, ears, body type, colors, and the costume state specified here. Use these images for DESIGN/IDENTITY, not for rendering style; translate the design into the binding page rendering style: Assets/Manga Me Character Sheet.png Do not substitute a different face, apparent age, hair color, hairstyle, ear type, body type, or costume.
+Do not draw trim, crop, registration, bleed, or production marks.
+
+Panel 1:
+- Panel direction (not printed text): Full-color manga only. Do not render speech balloons, dialogue, page numbers or production notes into base art. Reserve space for CSP lettering.
+- Setting: A playful manga-style conceptual illustration shows Alpha, using his approved character reference, reclining after the six-day world-creation effort while a completed miniature world appears behind him. If the approved Alpha reference is unavailable at render time, use a labeled schematic instead of inventing his appearance. The seventh-day joke is conveyed by his relaxed posture.
+- Scene: Panel 1 — Continuation
+- Blocking: Use the visual direction and assigned canonical references; reserve negative space for the supplied dialogue and demonstrations.
+- Characters: Manga Me.
+- CH1-P049-S01-D01: manga_me, speech balloon (no additional tail): “Naturally, Alpha decided to take the seventh day off.”
+
+Panel 2:
+- Panel direction (not printed text): Full-color manga only. Do not render speech balloons, dialogue, page numbers or production notes into base art. Reserve space for CSP lettering.
+- Setting: A diagram contrasts the dinosaur extinction roughly sixty-five million years ago with the Gods’ fictional reseeding of Earth with humanity roughly six thousand years ago. Dates and captions are CSP lettering.
+- Scene: Panel 2 — Two fictional timescales
+- Blocking: Use the visual direction and assigned canonical references; reserve negative space for the supplied dialogue and demonstrations.
+- Characters: Manga Me.
+- CH1-P049-S02-D01: manga_me, speech balloon (no additional tail): “In IAKESI’s fictional history, the Gods redirect the event that ended the dinosaurs about sixty-five million years ago, then reseed Earth with humanity roughly six thousand years ago.”
+
+Panel 3:
+- Panel direction (not printed text): Full-color manga only. Do not render speech balloons, dialogue, page numbers or production notes into base art. Reserve space for CSP lettering.
+- Setting: Manga Me stands beside a clearly fictional two-part timeline diagram: the ancient dinosaur-extinction event and the later divine reseeding of humanity. He points to a small story-manuscript icon beneath the timeline to frame the explanation as invented worldbuilding, not a scientific or theological claim. Any dates or labels are authored in CSP.
+- Scene: Panel 3 — Continuation
+- Blocking: Use the visual direction and assigned canonical references; reserve negative space for the supplied dialogue and demonstrations.
+- Characters: Manga Me.
+- CH1-P049-S03-D01: manga_me, speech balloon (one speaker tail): “That’s a worldbuilding device, not a scientific or theological claim.”
+
+Story lettering rule: use exactly the 3 panel/story lettered items listed above, verbatim and in the stated balloon/chain structure. Do not invent, paraphrase, continue, summarize, or add any other story text. Page numbers are not part of this handoff and must not be rendered.
+PRODUCTION FOLIO RULE — BINDING: do not add a page number or panel number to either output. Folios are added manually in CSP.
+DELIVERY CHECK: return IAKESI-CH1-049-art.png and IAKESI-CH1-049-lettering.png as the two registered PNG layers. The companion IAKESI-CH1-049-text.txt is the authoritative wording file; both PNGs must be 1024×1536 pixels, perfectly registered, and unflattened.

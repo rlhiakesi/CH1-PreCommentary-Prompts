@@ -1,0 +1,55 @@
+Render CH1-P070 at 1024×1536 pixels as two registered PNG files plus one authoritative text file: IAKESI-CH1-070-art.png, IAKESI-CH1-070-lettering.png, and IAKESI-CH1-070-text.txt.
+ARTWORK FILE — IAKESI-CH1-070-art.png: finished full-color page artwork only. Include panels, gutters, environments, characters, props, lighting and visual effects; include no speech balloons, thought balloons, narration boxes, lettering, captions, non-diegetic SFX, page numbers, panel numbers, or lettering placeholders.
+LETTERING FILE — IAKESI-CH1-070-lettering.png: transparent RGBA overlay at the identical pixel dimensions and registration. Include only the specified speech balloons, thought balloons, narration boxes, tails/dots, text, and non-diegetic SFX. Every other pixel must remain transparent; include no artwork and no page number.
+OUTPUT DIRECTORY — BINDING: place all three deliverables in the RenderedPages/ subdirectory of the current chapter project directory. Create RenderedPages/ if it does not exist, when filesystem access is available. Required relative output paths: RenderedPages/IAKESI-CH1-070-art.png; RenderedPages/IAKESI-CH1-070-lettering.png; RenderedPages/IAKESI-CH1-070-text.txt. Do not place final deliverables in RenderPackages/ or the chapter root. If rendering takes place in an environment without access to the user's chapter filesystem, return the three files with these exact filenames for installation into RenderedPages/; do not claim they were saved locally.
+Use 4 panels arranged vertically in reading order.
+Use the attached page package as the authoritative resolved SBL source if any ambiguity remains.
+Global production rules — BINDING:
+- Style: full-color manga
+- Canvas: 1024x1536
+- Print Rules: not applicable
+- Lettering: CSP final
+- Source: v32 script
+Use these attached canonical/authoritative references as binding for the aspects they define: Assets/Manga Me Character Sheet.png.
+Canonical character identity:
+- Manga Me: BINDING VISUAL IDENTITY: match the canonical character reference images exactly for face, proportions, hair geometry, ears, body type, colors, and the costume state specified here. Use these images for DESIGN/IDENTITY, not for rendering style; translate the design into the binding page rendering style: Assets/Manga Me Character Sheet.png Do not substitute a different face, apparent age, hair color, hairstyle, ear type, body type, or costume.
+Do not draw trim, crop, registration, bleed, or production marks.
+
+Panel 1:
+- Panel direction (not printed text): Full-color manga only. Do not render speech balloons, dialogue, page numbers or production notes into base art. Reserve space for CSP lettering.
+- Setting: Manga Me presents a Council debate diagram with two clear conceptual alternatives: magic and advanced technology. Avoid depicting unapproved Council designs.
+- Scene: Panel 1 — The question
+- Blocking: Use the visual direction and assigned canonical references; reserve negative space for the supplied dialogue and demonstrations.
+- Characters: Manga Me.
+- CH1-P070-S01-D01: manga_me, speech balloon (one speaker tail): “Another decision in Chapter 1 concerns the kind of civilization the Gods intend to create.”
+- CH1-P070-S01-D02: manga_me, speech balloon (one speaker tail): “Should the new peoples receive magic, or advanced technology?”
+
+Panel 2:
+- Panel direction (not printed text): Full-color manga only. Do not render speech balloons, dialogue, page numbers or production notes into base art. Reserve space for CSP lettering.
+- Setting: A conceptual progression of discoveries building on previous discoveries, ending with a generic powerful weapon silhouette. Avoid specific unsupported inventions.
+- Scene: Panel 2 — Technology compounds
+- Blocking: Use the visual direction and assigned canonical references; reserve negative space for the supplied dialogue and demonstrations.
+- Characters: Manga Me.
+- CH1-P070-S02-D01: manga_me, speech balloon (no additional tail): “Technology allows knowledge to accumulate.”
+- CH1-P070-S02-D02: manga_me, speech balloon (no additional tail): “One discovery leads to another—and eventually to capabilities the original inventors could hardly imagine.”
+
+Panel 3:
+- Panel direction (not printed text): Full-color manga only. Do not render speech balloons, dialogue, page numbers or production notes into base art. Reserve space for CSP lettering.
+- Setting: A restrained conceptual comparison of beneficial technology and destructive potential.
+- Scene: Panel 3 — A cost of progress
+- Blocking: Use the visual direction and assigned canonical references; reserve negative space for the supplied dialogue and demonstrations.
+- Characters: Manga Me.
+- CH1-P070-S03-D01: manga_me, speech balloon (no additional tail): “Unfortunately, that includes increasingly destructive weapons.”
+
+Panel 4:
+- Panel direction (not printed text): Full-color manga only. Do not render speech balloons, dialogue, page numbers or production notes into base art. Reserve space for CSP lettering.
+- Setting: A generic mage training in a controlled setting, without presenting invented spell mechanics as canon.
+- Scene: Panel 4 — Magic has different constraints
+- Blocking: Use the visual direction and assigned canonical references; reserve negative space for the supplied dialogue and demonstrations.
+- Characters: Manga Me.
+- CH1-P070-S04-D01: manga_me, speech balloon (no additional tail): “Magic may require training, discipline, experience, and judgment.”
+- CH1-P070-S04-D02: manga_me, speech balloon (no additional tail): “That doesn’t automatically make it safer.”
+
+Story lettering rule: use exactly the 7 panel/story lettered items listed above, verbatim and in the stated balloon/chain structure. Do not invent, paraphrase, continue, summarize, or add any other story text. Page numbers are not part of this handoff and must not be rendered.
+PRODUCTION FOLIO RULE — BINDING: do not add a page number or panel number to either output. Folios are added manually in CSP.
+DELIVERY CHECK: return IAKESI-CH1-070-art.png and IAKESI-CH1-070-lettering.png as the two registered PNG layers. The companion IAKESI-CH1-070-text.txt is the authoritative wording file; both PNGs must be 1024×1536 pixels, perfectly registered, and unflattened.

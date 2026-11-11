@@ -1,0 +1,54 @@
+Render CH1-P093 at 1024×1536 pixels as two registered PNG files plus one authoritative text file: IAKESI-CH1-093-art.png, IAKESI-CH1-093-lettering.png, and IAKESI-CH1-093-text.txt.
+ARTWORK FILE — IAKESI-CH1-093-art.png: finished full-color page artwork only. Include panels, gutters, environments, characters, props, lighting and visual effects; include no speech balloons, thought balloons, narration boxes, lettering, captions, non-diegetic SFX, page numbers, panel numbers, or lettering placeholders.
+LETTERING FILE — IAKESI-CH1-093-lettering.png: transparent RGBA overlay at the identical pixel dimensions and registration. Include only the specified speech balloons, thought balloons, narration boxes, tails/dots, text, and non-diegetic SFX. Every other pixel must remain transparent; include no artwork and no page number.
+OUTPUT DIRECTORY — BINDING: place all three deliverables in the RenderedPages/ subdirectory of the current chapter project directory. Create RenderedPages/ if it does not exist, when filesystem access is available. Required relative output paths: RenderedPages/IAKESI-CH1-093-art.png; RenderedPages/IAKESI-CH1-093-lettering.png; RenderedPages/IAKESI-CH1-093-text.txt. Do not place final deliverables in RenderPackages/ or the chapter root. If rendering takes place in an environment without access to the user's chapter filesystem, return the three files with these exact filenames for installation into RenderedPages/; do not claim they were saved locally.
+Use 4 panels arranged vertically in reading order.
+Use the attached page package as the authoritative resolved SBL source if any ambiguity remains.
+Global production rules — BINDING:
+- Style: full-color manga
+- Canvas: 1024x1536
+- Print Rules: not applicable
+- Lettering: CSP final
+- Source: v32 script
+Use these attached canonical/authoritative references as binding for the aspects they define: Assets/Manga Me Character Sheet.png.
+Canonical character identity:
+- Manga Me: BINDING VISUAL IDENTITY: match the canonical character reference images exactly for face, proportions, hair geometry, ears, body type, colors, and the costume state specified here. Use these images for DESIGN/IDENTITY, not for rendering style; translate the design into the binding page rendering style: Assets/Manga Me Character Sheet.png Do not substitute a different face, apparent age, hair color, hairstyle, ear type, body type, or costume.
+Do not draw trim, crop, registration, bleed, or production marks.
+
+Panel 1:
+- Panel direction (not printed text): Full-color manga only. Do not render speech balloons, dialogue, page numbers or production notes into base art. Reserve space for CSP lettering.
+- Setting: Manga Me at his canonical desk, with a manuscript and a single generic prompt represented side by side.
+- Scene: Panel 1 — The novel comparison
+- Blocking: Use the visual direction and assigned canonical references; reserve negative space for the supplied dialogue and demonstrations.
+- Characters: Manga Me.
+- CH1-P093-S01-D01: manga_me, speech balloon (one speaker tail): “Likewise, asking an AI system to write a story doesn’t automatically produce an award-winning novel.”
+
+Panel 2:
+- Panel direction (not printed text): Full-color manga only. Do not render speech balloons, dialogue, page numbers or production notes into base art. Reserve space for CSP lettering.
+- Setting: An anonymous viewer sees one finished illustration; a conceptual montage behind it shows the unseen planning process.
+- Scene: Panel 2 — A misleading assumption
+- Blocking: Use the visual direction and assigned canonical references; reserve negative space for the supplied dialogue and demonstrations.
+- Characters: Manga Me.
+- CH1-P093-S02-D01: manga_me, speech balloon (no additional tail): “People see a generated image and assume the person using the system typed a sentence or two and accepted whatever appeared.”
+
+Panel 3:
+- Panel direction (not printed text): Full-color manga only. Do not render speech balloons, dialogue, page numbers or production notes into base art. Reserve space for CSP lettering.
+- Setting: A simple generic one-prompt illustration beside a wall of disposable, low-quality examples. Do not suggest they are actual IAKESI pages.
+- Scene: Panel 3 — Sometimes they did
+- Blocking: Use the visual direction and assigned canonical references; reserve negative space for the supplied dialogue and demonstrations.
+- Characters: Manga Me.
+- CH1-P093-S03-D01: manga_me, speech balloon (no additional tail): “Sometimes that’s exactly what happened.”
+- CH1-P093-S03-D02: manga_me, speech balloon (no additional tail): “There’s certainly plenty of low-quality AI-generated material on the Internet.”
+
+Panel 4:
+- Panel direction (not printed text): Full-color manga only. Do not render speech balloons, dialogue, page numbers or production notes into base art. Reserve space for CSP lettering.
+- Setting: Manga Me reviews a structured production binder, annotated scripts, character sheets and revisions.
+- Scene: Panel 4 — Not the whole picture
+- Blocking: Use the visual direction and assigned canonical references; reserve negative space for the supplied dialogue and demonstrations.
+- Characters: Manga Me.
+- CH1-P093-S04-D01: manga_me, speech balloon (one speaker tail): “And because it’s easy to produce, bad examples can overwhelm the good ones.”
+- CH1-P093-S04-D02: manga_me, speech balloon (one speaker tail): “But not every AI-assisted project is created with the same lack of effort.”
+
+Story lettering rule: use exactly the 6 panel/story lettered items listed above, verbatim and in the stated balloon/chain structure. Do not invent, paraphrase, continue, summarize, or add any other story text. Page numbers are not part of this handoff and must not be rendered.
+PRODUCTION FOLIO RULE — BINDING: do not add a page number or panel number to either output. Folios are added manually in CSP.
+DELIVERY CHECK: return IAKESI-CH1-093-art.png and IAKESI-CH1-093-lettering.png as the two registered PNG layers. The companion IAKESI-CH1-093-text.txt is the authoritative wording file; both PNGs must be 1024×1536 pixels, perfectly registered, and unflattened.

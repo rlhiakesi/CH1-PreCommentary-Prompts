@@ -1,0 +1,45 @@
+Render CH1-P079 at 1024×1536 pixels as two registered PNG files plus one authoritative text file: IAKESI-CH1-079-art.png, IAKESI-CH1-079-lettering.png, and IAKESI-CH1-079-text.txt.
+ARTWORK FILE — IAKESI-CH1-079-art.png: finished full-color page artwork only. Include panels, gutters, environments, characters, props, lighting and visual effects; include no speech balloons, thought balloons, narration boxes, lettering, captions, non-diegetic SFX, page numbers, panel numbers, or lettering placeholders.
+LETTERING FILE — IAKESI-CH1-079-lettering.png: transparent RGBA overlay at the identical pixel dimensions and registration. Include only the specified speech balloons, thought balloons, narration boxes, tails/dots, text, and non-diegetic SFX. Every other pixel must remain transparent; include no artwork and no page number.
+OUTPUT DIRECTORY — BINDING: place all three deliverables in the RenderedPages/ subdirectory of the current chapter project directory. Create RenderedPages/ if it does not exist, when filesystem access is available. Required relative output paths: RenderedPages/IAKESI-CH1-079-art.png; RenderedPages/IAKESI-CH1-079-lettering.png; RenderedPages/IAKESI-CH1-079-text.txt. Do not place final deliverables in RenderPackages/ or the chapter root. If rendering takes place in an environment without access to the user's chapter filesystem, return the three files with these exact filenames for installation into RenderedPages/; do not claim they were saved locally.
+Use 3 panels arranged vertically in reading order.
+Use the attached page package as the authoritative resolved SBL source if any ambiguity remains.
+Global production rules — BINDING:
+- Style: full-color manga
+- Canvas: 1024x1536
+- Print Rules: not applicable
+- Lettering: CSP final
+- Source: v32 script
+Use these attached canonical/authoritative references as binding for the aspects they define: Assets/Manga Me Character Sheet.png.
+Canonical character identity:
+- Manga Me: BINDING VISUAL IDENTITY: match the canonical character reference images exactly for face, proportions, hair geometry, ears, body type, colors, and the costume state specified here. Use these images for DESIGN/IDENTITY, not for rendering style; translate the design into the binding page rendering style: Assets/Manga Me Character Sheet.png Do not substitute a different face, apparent age, hair color, hairstyle, ear type, body type, or costume.
+Do not draw trim, crop, registration, bleed, or production marks.
+
+Panel 1:
+- Panel direction (not printed text): Full-color manga only. Do not render speech balloons, dialogue, page numbers or production notes into base art. Reserve space for CSP lettering.
+- Setting: Manga Me weighs two thick chapter stacks, the original and revised versions, with the revised work visibly more polished but also much larger. Keep the contrast immediately readable.
+- Scene: Panel 1 — The other side of improvement
+- Blocking: Use the visual direction and assigned canonical references; reserve negative space for the supplied dialogue and demonstrations.
+- Characters: Manga Me.
+- CH1-P079-S01-D01: manga_me, speech balloon (one speaker tail): “They’re also substantially longer than they need to be.”
+- CH1-P079-S01-D02: manga_me, speech balloon (one speaker tail): “Both things can be true.”
+
+Panel 2:
+- Panel direction (not printed text): Full-color manga only. Do not render speech balloons, dialogue, page numbers or production notes into base art. Reserve space for CSP lettering.
+- Setting: Manga Me gestures toward the comically thick pre-chapter commentary manuscript, deadpan.
+- Scene: Panel 2 — The punch line
+- Blocking: Use the visual direction and assigned canonical references; reserve negative space for the supplied dialogue and demonstrations.
+- Characters: Manga Me.
+- CH1-P079-S02-D01: manga_me, speech balloon (one speaker tail): “And if you’re wondering whether I’ve learned my lesson about excessive length, you’re still reading the pre-chapter commentary.”
+
+Panel 3:
+- Panel direction (not printed text): Full-color manga only. Do not render speech balloons, dialogue, page numbers or production notes into base art. Reserve space for CSP lettering.
+- Setting: Tight deadpan close-up of Manga Me at his studio desk. A comically thick manuscript for the pre-chapter commentary fills the foreground and partly obscures his workstation; he glances at the stack with an embarrassed half-smile. The image serves as the closing punch line.
+- Scene: Panel 3 — The punch line (continued 1)
+- Blocking: Use the visual direction and assigned canonical references; reserve negative space for the supplied dialogue and demonstrations.
+- Characters: Manga Me.
+- CH1-P079-S03-D01: manga_me, speech balloon (one speaker tail): “Apparently, I have some work left to do.”
+
+Story lettering rule: use exactly the 4 panel/story lettered items listed above, verbatim and in the stated balloon/chain structure. Do not invent, paraphrase, continue, summarize, or add any other story text. Page numbers are not part of this handoff and must not be rendered.
+PRODUCTION FOLIO RULE — BINDING: do not add a page number or panel number to either output. Folios are added manually in CSP.
+DELIVERY CHECK: return IAKESI-CH1-079-art.png and IAKESI-CH1-079-lettering.png as the two registered PNG layers. The companion IAKESI-CH1-079-text.txt is the authoritative wording file; both PNGs must be 1024×1536 pixels, perfectly registered, and unflattened.

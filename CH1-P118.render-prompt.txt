@@ -1,0 +1,55 @@
+Render CH1-P118 at 1024×1536 pixels as two registered PNG files plus one authoritative text file: IAKESI-CH1-118-art.png, IAKESI-CH1-118-lettering.png, and IAKESI-CH1-118-text.txt.
+ARTWORK FILE — IAKESI-CH1-118-art.png: finished full-color page artwork only. Include panels, gutters, environments, characters, props, lighting and visual effects; include no speech balloons, thought balloons, narration boxes, lettering, captions, non-diegetic SFX, page numbers, panel numbers, or lettering placeholders.
+LETTERING FILE — IAKESI-CH1-118-lettering.png: transparent RGBA overlay at the identical pixel dimensions and registration. Include only the specified speech balloons, thought balloons, narration boxes, tails/dots, text, and non-diegetic SFX. Every other pixel must remain transparent; include no artwork and no page number.
+OUTPUT DIRECTORY — BINDING: place all three deliverables in the RenderedPages/ subdirectory of the current chapter project directory. Create RenderedPages/ if it does not exist, when filesystem access is available. Required relative output paths: RenderedPages/IAKESI-CH1-118-art.png; RenderedPages/IAKESI-CH1-118-lettering.png; RenderedPages/IAKESI-CH1-118-text.txt. Do not place final deliverables in RenderPackages/ or the chapter root. If rendering takes place in an environment without access to the user's chapter filesystem, return the three files with these exact filenames for installation into RenderedPages/; do not claim they were saved locally.
+Use 4 panels arranged vertically in reading order.
+Use the attached page package as the authoritative resolved SBL source if any ambiguity remains.
+Global production rules — BINDING:
+- Style: full-color manga
+- Canvas: 1024x1536
+- Print Rules: not applicable
+- Lettering: CSP final
+- Source: v32 script
+Use these attached canonical/authoritative references as binding for the aspects they define: Assets/Manga Me Character Sheet.png.
+Canonical character identity:
+- Manga Me: BINDING VISUAL IDENTITY: match the canonical character reference images exactly for face, proportions, hair geometry, ears, body type, colors, and the costume state specified here. Use these images for DESIGN/IDENTITY, not for rendering style; translate the design into the binding page rendering style: Assets/Manga Me Character Sheet.png Do not substitute a different face, apparent age, hair color, hairstyle, ear type, body type, or costume.
+Do not draw trim, crop, registration, bleed, or production marks.
+
+Panel 1:
+- Panel direction (not printed text): Full-color manga only. Do not render speech balloons, dialogue, page numbers or production notes into base art. Reserve space for CSP lettering.
+- Setting: A preflight dashboard flags one missing panel beat, one incorrect reference, one balloon collision and one production-rule violation before rendering. All reader-visible technical labels and diagram text are prepared in CSP. Commentary artwork remains full-color manga.
+- Scene: Panel 1 — Step 22: Production preflight
+- Blocking: Use the visual direction and assigned canonical references; reserve negative space for the supplied dialogue and demonstrations.
+- Characters: Manga Me.
+- CH1-P118-S01-D01: manga_me, speech balloon (no additional tail): “Step 22: Production preflight.”
+- CH1-P118-S01-D02: manga_me, speech balloon (no additional tail): “I check for missing content, wrong references, layout issues, lettering conflicts and production-rule violations.”
+
+Panel 2:
+- Panel direction (not printed text): Full-color manga only. Do not render speech balloons, dialogue, page numbers or production notes into base art. Reserve space for CSP lettering.
+- Setting: A frozen story-chapter script receives a revision tag and lock icon. A proposed later change is routed back through the script, not silently inserted in artwork. This depicts the printed-story process, not a mandatory commentary freeze gate. All reader-visible technical labels and diagram text are prepared in CSP. Commentary artwork remains full-color manga.
+- Scene: Panel 2 — Step 23: Script freeze
+- Blocking: Use the visual direction and assigned canonical references; reserve negative space for the supplied dialogue and demonstrations.
+- Characters: Manga Me.
+- CH1-P118-S02-D01: manga_me, speech balloon (no additional tail): “Step 23: Script freeze.”
+- CH1-P118-S02-D02: manga_me, speech balloon (no additional tail): “I freeze the approved script. Rendering must not quietly rewrite the story; deliberate changes go back through the script.”
+
+Panel 3:
+- Panel direction (not printed text): Full-color manga only. Do not render speech balloons, dialogue, page numbers or production notes into base art. Reserve space for CSP lettering.
+- Setting: The approved comic-script panel is mapped into a structured SBL object with panel geometry, character positions, reference IDs and dialogue owner. Arrows show conversion without changes to wording. All reader-visible technical labels and diagram text are prepared in CSP. Commentary artwork remains full-color manga.
+- Scene: Panel 3 — Step 24: SBL conversion
+- Blocking: Use the visual direction and assigned canonical references; reserve negative space for the supplied dialogue and demonstrations.
+- Characters: Manga Me.
+- CH1-P118-S03-D01: manga_me, speech balloon (no additional tail): “Step 24: SBL conversion.”
+- CH1-P118-S03-D02: manga_me, speech balloon (no additional tail): “I have ChatGPT convert the approved script to machine-readable Scene Blocking Language. It is conversion, not rewriting.”
+
+Panel 4:
+- Panel direction (not printed text): Full-color manga only. Do not render speech balloons, dialogue, page numbers or production notes into base art. Reserve space for CSP lettering.
+- Setting: Manga Me reviews the three completed checklist items. Show a different production prop or simple visual metaphor from the preceding three demonstrations; no extra visible text is necessary.
+- Scene: Panel 4 — Transition / consequence
+- Blocking: Use the visual direction and assigned canonical references; reserve negative space for the supplied dialogue and demonstrations.
+- Characters: Manga Me.
+- CH1-P118-S04-D01: manga_me, speech balloon (one speaker tail): “Once the script is frozen, changes must be deliberate—not silent drift.”
+
+Story lettering rule: use exactly the 7 panel/story lettered items listed above, verbatim and in the stated balloon/chain structure. Do not invent, paraphrase, continue, summarize, or add any other story text. Page numbers are not part of this handoff and must not be rendered.
+PRODUCTION FOLIO RULE — BINDING: do not add a page number or panel number to either output. Folios are added manually in CSP.
+DELIVERY CHECK: return IAKESI-CH1-118-art.png and IAKESI-CH1-118-lettering.png as the two registered PNG layers. The companion IAKESI-CH1-118-text.txt is the authoritative wording file; both PNGs must be 1024×1536 pixels, perfectly registered, and unflattened.
